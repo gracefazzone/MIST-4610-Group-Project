@@ -132,7 +132,7 @@ Table: Venue
 | mainContact | The main contact's name that helps book the venue | Text | 45 |     | |
 | plannerID   | Unique Planner Identifier | INT      |      |        | FK |## SQL Queries
 
-```
+```sql
 Query 1
 Description: Write a query to list out each venue and  the most expensive ticket offered that was sold on Ticketmaster.
 
