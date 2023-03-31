@@ -1,10 +1,11 @@
 # Group Project Team 12482_1
 
-The concert management company needs to effectively track all aspects of their operations. The company owns several venues with different names, capacities, locations, and different main points of contact for rental inquiries. The venues grant spaces for multiple vendors of different names, types, and permits to sell items in their respective stalls that range in flat rental charges and sizes. The company also has a designated team of staff members that the company wants to store information about; the company wants to store information about their names, emails, phone numbers, addresses, and pay rates. The concert management team would also like to analyze the shifts of each staff member and retain data about the start and end time. 
+The concert management company needs to effectively track all aspects of their operations. The company owns several venues with different names, capacities, locations, and different main points of contact for rental inquiries. The venues grant spaces for multiple vendors of different names, types, and permits to sell items in their respective stalls that range in flat rental charges and sizes. The company also has a designated team of staff members that the company wants to store information about; the company wants to store information about their names, emails, phone numbers, addresses, and pay rates. The concert management team would also like to analyze the shifts of each staff member and retain data about the start and end time of the shifts. 
 
-Next, the concert management team would also like to save information about agents who manage the performers. The company wants to save the names and phone numbers of the agents and the name of the performers they manage. Design a data model to accurately depict the process of concert management. With each performer, they will fall in a specific genre category. With each concert that will be performed, the company wants to track the name, date, and time of the concert.
+Next, the concert management team would also like to save information about agents who manage the performers. An agent can have many performers under them. The company wants to save the names and phone numbers of the agents and the name of the performers they manage. Design a data model to accurately depict the process of concert management. With each performer, they will fall in a specific genre category. With each concert that will be performed, the company wants to track the name, concert date, time of the concert, and opener for the concert.
 
-Finally, the company wants to track attendee name, contact, and credit card numbers. The attendees purchase different tickets from different platforms, at different costs, and their seat numbers. The concert will feature multiple performers and can take place at multiple venues. Create a data model that represents the entire process of planning the concert, from purchasing tickets and managing logistics to booking performers and managing staff. 
+Finally, the company wants to track attendee name, contact, and credit card numbers. The attendees can purchase one or many tickets from different platforms, with different costs, and pick their seat numbers. The concert will feature multiple performers and can take place at multiple venues. Create a data model that represents the entire process of planning the concert, from purchasing tickets and managing logistics to booking performers and managing staff. 
+
 # Team Members
 - [@Grace Fazzone](https://github.com/gracefazzone/MIST-4610-Group-Project)
 - [@Annie Li](https://github.com/anniewli/annieli)
@@ -268,3 +269,8 @@ The selected columns from the tables include the ticket platform, ticket cost, c
 This query will provide a list of all concerts in 2022 that have tickets costing less than $30, along with their venue information.
 
 ```
+
+## SQL Query Matrix
+
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/Screenshot%20(144).png?raw=true)
+
