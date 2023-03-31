@@ -44,7 +44,7 @@ Table: Company
 | Column Name | Description               | Data Type | Size | Format | Key |
 | ----------- | ------------------------- | :-------- | ---- | ---- | -----
 | plannerID   | Unique Planner Identifier | INT       |      |      | PK
-| companyName | The company name planner is with | Text | 45 |      |  |
+| companyName | The name of the company the planner is with | Text | 45 |      |  |
 
 Table: Concert
 | Column Name | Description                 | Data Type | Size | Format | Key |
