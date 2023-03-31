@@ -92,15 +92,15 @@ Table: Staff
 | city        | The staff's city of residence | Text  | 45 |      |  |
 | state       | The staff's state of residence | Text | 45 |      |  |
 | zipCode     | The staff's residence zip code | Text | 45 |      |  |
-| payRate     | The staff's pay rate per hour  | Double | 5 |     | |
+| payRate     | The staff's pay rate per hour  | Double | 5 | XX.XX | |
 | plannerID   | Unique Planner Identifier  | INT |        |   | FK |
 
 Table: Stall
 | Column Name      | Description             | Data Type | Size | Format | Key |
 | -----------      | ----------------------- | :-------- | ---- | ---- | -----
 | stallID          | Unique Stall Identifier | INT       |      |      | PK
-| flatRentalCharge | The stall's flat rental charge | Double |  |      |  |
-| squareMeters     | The stall's size in square meters | Double |      |   |  |
+| flatRentalCharge | The stall's flat rental charge | Double | XXXXX.XX |      |  |
+| squareMeters     | The stall's size in square meters | Double | XX.XX |   |  |
 | venueID          | Unique Venue Identifier | INT       |      |      | FK | 
 | vendorID         | Unique Vendor Identifier | INT      |      |      | FK |
 
@@ -109,7 +109,7 @@ Table: Ticket
 | -----------    | ----------------------- | :-------- | ---- | ---- | -----
 | ticketID       | Unique Ticket Identifier | INT      |      |      | PK
 | ticketPlatform | The platform that sells tickets | Text | 45 |     |  |
-| ticketCost     | The cost of the ticket     | Double |      |      |  |
+| ticketCost     | The cost of the ticket     | Double | XXX.XX |      |  |
 | seatNumber     | The seat number on ticket  | Text   |  5   |      |  | 
 | attendeeID     | Unique Attendee Identifier | INT    |      |      | FK |
 | concertID      | Unique Concert Identifier  | INT    |      |      | FK |
@@ -133,7 +133,7 @@ Table: Venue
 | plannerID   | Unique Planner Identifier | INT      |      |        | FK |
 
 
-## SQL Queries
+# SQL Queries
 
 ```sql
 Query 1
@@ -273,7 +273,31 @@ This query will provide a list of all concerts in 2022 that have tickets costing
 
 ```
 
+## Query Results
+
+Query 1:
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q1().png?raw=true)
+Query2:
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q2().png?raw=true)
+Query3:
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q3().png?raw=true)
+Query 4:
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q4().png?raw=true)
+Query 5:
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q5().png?raw=true)
+Query 6:
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q6().png?raw=true)
+Query 7:
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q7().png?raw=true)
+Query 8:
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q8().png?raw=true)
+Query 9:
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q9().png?raw=true)
+Query 10:
+![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q10().png?raw=true)
+
 ## SQL Query Matrix
 
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/Screenshot%20(144).png?raw=true)
+
 
