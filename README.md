@@ -130,7 +130,10 @@ Table: Venue
 | location    | The venue's location     | Text      |  45  |        | |
 | capacity    | The venue's maximum capacity | INT   |      |        | | 
 | mainContact | The main contact's name that helps book the venue | Text | 45 |     | |
-| plannerID   | Unique Planner Identifier | INT      |      |        | FK |## SQL Queries
+| plannerID   | Unique Planner Identifier | INT      |      |        | FK |
+
+
+## SQL Queries
 
 ```sql
 Query 1
@@ -163,7 +166,7 @@ Justification: Management would want to know data about the amount of business g
 focus on as revenue aligns with consumer demands. The 500 filter gives better data of top genres without outliers for the purpose of simple data analysis. 
 
 Query 3
-Description: Write a query to list the first and last name of the attendee's that purchased more than one ticket, the total cost of all of their tickets, and order by highest to lowest total cost.
+Description: Write a query to list the first and last name of the attendees that purchased more than one ticket, the total cost of all of their tickets, and order by highest to lowest total cost.
 
 SELECT firstName, lastName, COUNT(ticketID) AS "Number of Tickets", SUM(ticketCost) AS "Total Cost"
 FROM Attendee
