@@ -277,22 +277,31 @@ This query will provide a list of all concerts in 2022 that have tickets costing
 
 Query 1:
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q1().png?raw=true)
+
 Query2:
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q2().png?raw=true)
+
 Query3:
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q3().png?raw=true)
+
 Query 4:
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q4().png?raw=true)
+
 Query 5:
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q5().png?raw=true)
+
 Query 6:
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q6().png?raw=true)
+
 Query 7:
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q7().png?raw=true)
+
 Query 8:
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q8().png?raw=true)
+
 Query 9:
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q9().png?raw=true)
+
 Query 10:
 ![App Screenshot](https://github.com/gracefazzone/MIST-4610-Group-Project/blob/main/TP_Q10().png?raw=true)
 
