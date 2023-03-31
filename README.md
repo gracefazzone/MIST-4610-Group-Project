@@ -137,7 +137,7 @@ Table: Venue
 
 ```sql
 Query 1
-Description: Write a query to list out each venue and  the most expensive ticket offered that was sold on Ticketmaster.
+Description: Write a query to list out each venue and the most expensive ticket offered that was sold on Ticketmaster.
 
 SELECT venueName, CONCAT(" $ ",ROUND(MAX(ticketCost),2)) AS 'Most Expensive Venue Ticket'
 FROM Venue 
