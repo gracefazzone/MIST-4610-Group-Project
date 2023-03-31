@@ -199,7 +199,9 @@ JOIN Ticket ON Concert.concertID = Ticket.concertID
 GROUP BY venueName
 ORDER BY AVG(ticketCost) DESC;
 
-Justification: This query selects the name of each venue along with the average ticket price for all concerts held at that venue. To accomplish this, it joins three tables - Venue, Concert, and Ticket - based on their respective ID fields. By using the AVG function, it calculates the average ticket price for each venue and orders the results in descending order based on that average. This query can be useful for concert promoters, venue managers, and other stakeholders to get an overview of the average ticket prices for different venues, helping them make informed decisions about where to hold future concerts or events.
+Justification: This query selects the name of each venue along with the average ticket price for all concerts held at that venue. To accomplish this, it joins three tables - Venue, Concert, and Ticket - based on their respective ID fields.
+By using the AVG function, it calculates the average ticket price for each venue and orders the results in descending order based on that average. 
+This query can be useful for concert promoters, venue managers, and other stakeholders to get an overview of the average ticket prices for different venues, helping them make informed decisions about where to hold future concerts or events.
 
 Query 6
 Description: Write a query to display the names of all the bands that have performed at a venue with a capacity greater than 20,000 people.
